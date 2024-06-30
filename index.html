@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Column Flexbox Layout with Top Row Links</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-row">
+        <a href="#" class="top-link">Link1</a>
+        <a href="#" class="top-link">Link2</a>
+        <a href="#" class="top-link">Link3</a>
+    </div>
+    <div class="container">
+        <div class="column fixed">First Column</div>
+        <div class="column flexible">
+            <section class="content-item">
+                <div class="image-box">
+                    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                </div>
+                <div class="text-box">
+                    <h2>Title 1</h2>
+                    <p>Some text describing the first item.</p>
+                    <div class="button-group">
+                        <button class="btn">Button 1</button>
+                        <button class="btn">Button 2</button>
+                    </div>
+                </div>
+            </section>
+            <section class="content-item">
+                <div class="image-box">
+                    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                </div>
+                <div class="text-box">
+                    <h2>Title 2</h2>
+                    <p>Some text describing the second item.</p>
+                </div>
+            </section>
+            <section class="content-item inline-grid">
+                <div class="inline-grid-item">
+                    <img src="https://via.placeholder.com/100" alt="Placeholder Image">
+                </div>
+                <div class="inline-grid-item">
+                    <img src="https://via.placeholder.com/100" alt="Placeholder Image">
+                </div>
+                <div class="inline-grid-item">
+                    <img src="https://via.placeholder.com/100" alt="Placeholder Image">
+                </div>
+            </section>
+        </div>
+        <div class="column fixed">Third Column</div>
+    </div>
+</body>
+</html>
